@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EmployeeList</string>
+    <string name="name">name</string>
+    <string name="job">job</string>
+    <string name="phone_number">phone number</string>
+    <string name="age">age</string>
+    <string name="submit">Submit</string>
+    <string name="view_list">View List</string>
+</resources>
