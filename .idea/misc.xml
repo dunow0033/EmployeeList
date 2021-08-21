@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/bedon/AndroidStudioProjects/EmployeeList/app/src/main/res/layout/activity_main.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/bedon/AndroidStudioProjects/EmployeeList/app/src/main/res/layout/employee_contact_fragment.xml" value="0.13645833333333332" />
         <entry key="..\:/Users/bedon/AndroidStudioProjects/EmployeeList/app/src/main/res/layout/employee_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bedon/AndroidStudioProjects/EmployeeList/app/src/main/res/layout/employee_list_fragment.xml" value="0.13645833333333332" />
         <entry key="..\:/Users/bedon/AndroidStudioProjects/EmployeeList/app/src/main/res/layout/signup_fragment.xml" value="0.25416666666666665" />
       </map>
     </option>

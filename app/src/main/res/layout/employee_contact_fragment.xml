@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:orientation="vertical">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?textAppearanceHeadline4"
+        tools:text="Tom Jones" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/occupation_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?textAppearanceHeadline4"
+        tools:text="Engineer" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/phone_number_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?textAppearanceHeadline4"
+        tools:text="672-985-3492" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/age_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?textAppearanceHeadline4"
+        tools:text="37" />
+
+</LinearLayout>

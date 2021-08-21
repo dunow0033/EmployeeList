@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EmployeeList">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.employee.view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
