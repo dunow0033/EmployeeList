@@ -11,7 +11,7 @@ class EmployeeAdapter (
     private val listener: (employee: Employee) -> Unit,
 ) : RecyclerView.Adapter<EmployeeAdapter.EmployeeViewHolder>() {
 
-    private var listOfQuestions = emptyList<Employee>()
+    private var listOfEmployees = emptyList<Employee>()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): EmployeeViewHolder {
         val inflater = LayoutInflater.from(parent.context)
