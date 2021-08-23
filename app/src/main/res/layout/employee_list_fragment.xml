@@ -10,9 +10,5 @@
         android:layout_height="wrap_content"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         tools:listitem="@layout/employee_contact_fragment" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="hello!!" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
