@@ -7,28 +7,28 @@
     android:orientation="vertical">
 
     <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/name_tv"
+        android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?textAppearanceHeadline4"
         tools:text="Tom Jones" />
 
     <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/occupation_tv"
+        android:id="@+id/occupation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?textAppearanceHeadline4"
         tools:text="Engineer" />
 
     <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/phone_number_tv"
+        android:id="@+id/phone_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?textAppearanceHeadline4"
         tools:text="672-985-3492" />
 
     <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/age_tv"
+        android:id="@+id/age"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?textAppearanceHeadline4"

@@ -12,12 +12,20 @@ class EmployeeAdapter (
     private val listener: (employee: Employee) -> Unit,
 ) : RecyclerView.Adapter<EmployeeAdapter.EmployeeViewHolder>() {
 
-    private var listOfEmployees = emptyList<Employee>()
+    private var employees = mutableListOf<Employee>()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): EmployeeViewHolder {
-        val layoutInflater = LayoutInflater.from(parent.context)
-        val binding = EmployeeContactFragmentBinding.inflate(layoutInflater, parent, false)
-        return EmployeeViewHolder(binding)
+        return EmployeeViewHolder(
+            EmployeeContactFragmentBinding.inflate(
+                LayoutInflater.from(parent.context),
+                parent,
+                false
+            )
+        ).also { employeeViewHolder ->
+            employeeViewHolder.itemView.setOnClickListener{
+                listener.invoke(employeeList[employeeViewHolder.adapterPosition])
+            }
+        }
 
 //        val inflater = LayoutInflater.from(parent.context)
 //        val binding = EmployeeContactFragmentBinding.inflate(inflater, parent, false)
@@ -36,14 +44,20 @@ class EmployeeAdapter (
         return employeeList.size
     }
 
+    fun setData(employees: List<Employee>){
+        this.employees.clear()
+        this.employees.addAll(employees)
+        notifyDataSetChanged()
+    }
+
     class EmployeeViewHolder(private val binding: EmployeeContactFragmentBinding) :
             RecyclerView.ViewHolder(binding.root) {
                 fun bind(employee: Employee){
                     with(binding) {
-                        nameTv.text = employee.name
-                        occupationTv.text = employee.job
-                        phoneNumberTv.text = employee.phone_number
-                        ageTv.text = employee.age
+                        name.text = employee.name
+                        occupation.text = employee.job
+                        phoneNumber.text = employee.phone_number
+                        age.text = employee.age
                     }
                 }
             }
