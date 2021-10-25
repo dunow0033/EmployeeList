@@ -4,7 +4,6 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.employeelist.ui.model.models.Employee
-import com.example.employeelist.ui.model.repository.EmployeeRepoImp
 import com.example.employeelist.ui.model.repository.EmployeeRepository
 import java.lang.IllegalArgumentException
 
